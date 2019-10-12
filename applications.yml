@@ -4,10 +4,10 @@
 ---
 spring:
   profiles: dev
-spring:
-  name: config-server-dev
+  application:
+    name: config-server-dev
 ---
 spring:
   profiles: test
-spring:
-  name: config-server-test
+  application:
+    name: config-server-test
